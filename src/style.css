@@ -1,15 +1,14 @@
 @import "tailwindcss";
 
-@layer base {
-  :root {
-    color-scheme: light dark;
-  }
+body{
+  background-image: linear-gradient(rgb(46, 30, 147), rgb(103, 115, 222));
+  color: white;
+  font-size: 2rem;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-  }
 
-  p, blockquote, li {
-    text-wrap: pretty;
-  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
